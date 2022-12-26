@@ -1,0 +1,5 @@
+w=int(input("enter the weight of the apple in kgs"))
+y=int(input("enter the price pf one apple"))
+
+print("the total pricr of the apple=",w*y)
+
