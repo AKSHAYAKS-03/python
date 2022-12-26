@@ -1,0 +1,5 @@
+n=int(input("enter a number"))
+if(n%1==0) and(n%n==0):
+   print("the no is prime")
+else:
+   print("the no is notprime")
