@@ -1,0 +1,20 @@
+n=int(input("Enter the Values in the List :"))
+list=[]
+for i in range(0,n):
+    element=int(input("Enter the Value :"))
+    list.append(element)
+print("list")
+for i in range(0,n):
+    element_deleted=list.pop(0)
+    list.append(element_deleted)
+    print(" The Circulated list after",i+1,"rotation",list)
+
+#method-2
+def circulate(c,n):
+    for i in range (1,n+1):
+        d=c[i:]+c[:i]
+        print("Circulate","=",d)
+    return
+c=[178,289,324,448,570,698,188,842,956,106]
+n=int(input("Enter n :"))
+circulate (c,n)
