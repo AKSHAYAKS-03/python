@@ -1,3 +1,4 @@
+# SWAPPING TWO NUMBERS - METHOD 1
 a= int(input("enter a number"))
 b=int(input("enter a number"))
 print("a=",a)
@@ -7,3 +8,28 @@ a=b
 b=temp
 print("after swaping a =",a)
 print("after swaping b =",b)
+
+# SWAPPING TWO NUMBERS - METHOD 2
+s =int(input("enter a number"))
+t =int(input("enter a number"))
+print("The values before Swapping : ",s,t)
+s, t = s, t
+print("The values after Swapping : ",s,t)
+
+# SWAPPING TWO NUMBERS - METHOD 3 
+x = int(input("enter a number"))
+y = int(input("enter a number"))
+print("The Values before Swapping are",x,y) 
+x = x + y
+y = x - y
+x = x - y
+print("The Values after Swapping are",x,y) 
+
+# SWAPPING TWO NUMBERS - METHOD 4
+a = int(input("enter a number"))
+b = int(input("enter a number"))
+Mprint("The Values before Swapping are",a,b) #To display
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print("The Values after Swapping are",a,b)
