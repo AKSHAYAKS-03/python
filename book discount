@@ -1,0 +1,7 @@
+b1=int(input("enter a price"))
+b2=int(input("enter a price"))
+b3=int(input("enter a price"))
+b4=int(input("enter a price"))
+totprice=b1+b2+b3+b4
+dist=totprice*0.05
+print("total price of the books =",totalprice-dist)
