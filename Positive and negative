@@ -1,0 +1,7 @@
+s = int(input ("enter no") ) 
+if s >0:
+    print( s,"is positive") 
+elif s<0:
+    print( s, "is negative")
+else: 
+    print(s," is zero")

@@ -1,0 +1,5 @@
+s=input("enter any string")
+if(s.islower()):
+    print("the string is upper")
+elif(s.isupper()):
+    print("print the string is lower")
