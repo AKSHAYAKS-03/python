@@ -1,0 +1,15 @@
+#Return the full name of the Person( first name, last name) using function
+
+def fullname(x,y):
+    res=x+y
+    return res
+firstname= input("enter your firstname")
+lastname= input("enter your secondname")
+print("fullname:",fullname(firstname,lastname))
+
+
+
+output:
+enter your firstname akshaya
+enter your secondname ks
+fullname:  akshaya ks

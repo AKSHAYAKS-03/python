@@ -1,0 +1,24 @@
+#Find the Minimum Element in the list
+def minlist(n):
+    list1=[]
+    for i in range(0,n):
+        x=int(input("enter elements"))
+        list1.append(x)
+
+    return(min(list1))
+
+
+
+
+n=int(input("enter no of element"))
+print(minlist(n))
+
+output:
+enter no of element 5
+enter elements1
+enter elements5
+enter elements6
+enter elements4
+enter elements10
+1
+

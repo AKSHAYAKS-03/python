@@ -1,0 +1,13 @@
+#write a python program to convert time hours into minutes
+
+def time(x):
+    res=x*60
+    return res
+
+
+hours=int(input("enter an hour"))
+print("minutes=",time(hours))
+
+output:
+enter an hour 6
+minutes= 360

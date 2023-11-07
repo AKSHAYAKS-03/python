@@ -1,0 +1,18 @@
+#Print the area and Perimeter of Rectangle using Function
+
+def rectangle(l,b):
+    a=l*b
+    p=2*(l+b)
+    return(a)
+    return(p)
+
+
+l=int(input("enter length="))
+b=int(input("enter breadth="))
+print("area of rectange=",rectangle(l,b),"\n","perimter of rectangle=",rectangle(l,b))
+
+output:
+enter length=10
+enter breadth=15
+area of rectange= 150 
+perimter of rectangle= 150
