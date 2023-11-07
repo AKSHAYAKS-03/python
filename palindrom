@@ -1,0 +1,17 @@
+s= input("enter a str")
+m=s
+print(s)
+str1= ""
+for i in m:
+    str1 = i+str1
+print(str1)
+if(m==str1):
+    print("palindrom")
+else:
+    print("not palindrom")
+
+output:
+enter a strmalayalam
+malayalam
+malayalam
+palindrom

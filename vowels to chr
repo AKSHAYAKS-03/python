@@ -1,0 +1,16 @@
+s=input("Enter string:")
+v="A,E,I,O,U,a,e,i,o,u"
+n=" "
+for i in s:
+    for j in v:
+        if(i==j):
+            n=n+'@'
+            break
+    else:
+       n= n+i
+print(n1)
+ 
+
+output
+enter any strhello
+h@ll@

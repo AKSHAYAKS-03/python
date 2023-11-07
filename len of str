@@ -1,0 +1,9 @@
+s=input("enter a str=")
+c=0
+for i in s:
+    c+=1
+print(c)
+    
+output
+enter a str=hello
+5

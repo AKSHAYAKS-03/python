@@ -1,0 +1,12 @@
+s= input("enter a str")
+m=s
+print(s)
+str1= ""
+for i in m:
+    str1 = i+str1
+print(str1)
+
+output:
+enter a strksd
+ksd
+dsk
