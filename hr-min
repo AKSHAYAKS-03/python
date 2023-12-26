@@ -8,6 +8,6 @@ def time(x):
 hours=int(input("enter an hour"))
 print("minutes=",time(hours))
 
-output:
-enter an hour 6
-minutes= 360
+# output:
+# enter an hour 6
+# minutes= 360

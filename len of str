@@ -4,6 +4,7 @@ for i in s:
     c+=1
 print(c)
     
-output
-enter a str=hello
-5
+# output
+# enter a str=hello
+# 5
+# .
